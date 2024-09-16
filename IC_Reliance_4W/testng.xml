@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="classes">
+  <test name="Test">
+    <classes>
+    
+  <!--
+      <class name="New_car.TC_01"/>
+      
+      <class name="New_car.TC_02"/>
+      
+      <class name="New_car.TC_03"/>
+      
+     
+      
+      <class name="SAOD.TC_04"/>
+      
+      <class name="SAOD.TC_05"/>
+      
+      <class name="SAOD.TC_06"/>
+      
+      <class name="Comprehensive.TC_07"/>
+      
+      <class name="Comprehensive.TC_08"/>
+      
+      <class name="Comprehensive.TC_09"/>
+      
+      -->
+      
+      <class name="ThirdParty.TC_10"/>
+      
+      <class name="ThirdParty.TC_11"/>
+      
+      <class name="ThirdParty.TC_12"/>
+      
+      <class name="ThirdParty.TC_13"/>
+      
+      <class name="ThirdParty.TC_14"/>
+  
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

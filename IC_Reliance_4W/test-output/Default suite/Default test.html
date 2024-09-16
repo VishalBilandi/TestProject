@@ -1,0 +1,380 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 13 14:28:25 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>102 seconds (102313 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ThirdParty.TC_14.ownership_no()'><b>ownership_no</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.owner_type()'><b>owner_type</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.elec_acc()'><b>elec_acc</b><br>Test class: ThirdParty.TC_14<br>Parameters: 5000</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.existing_insurer()'><b>existing_insurer</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.fullname()'><b>fullname</b><br>Test class: ThirdParty.TC_14<br>Parameters: Vishal Bilandi</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.dob_calender()'><b>dob_calender</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.Rel_payment()'><b>Rel_payment</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.ckyc_number()'><b>ckyc_number</b><br>Test class: ThirdParty.TC_14<br>Parameters: 90077178553736</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.addons_select()'><b>addons_select</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.success_payment()'><b>success_payment</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>3</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.terms()'><b>terms</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.ncb_drpdwn()'><b>ncb_drpdwn</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.current_address()'><b>current_address</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.loan_yes()'><b>loan_yes</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.previous_policy()'><b>previous_policy</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.vehicle_button()'><b>vehicle_button</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.mobnum()'><b>mobnum</b><br>Test class: ThirdParty.TC_14<br>Parameters: 9311506762</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.address_btn()'><b>address_btn</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.zrodep_btn()'><b>zrodep_btn</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.premium()'><b>premium</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>6</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.rto_num()'><b>rto_num</b><br>Test class: ThirdParty.TC_14<br>Parameters: MH01</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.Make_payment_rel()'><b>Make_payment_rel</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>20</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.exisitngTP_popup()'><b>exisitngTP_popup</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.addons_drpdown()'><b>addons_drpdown</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.discounts()'><b>discounts</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.pan()'><b>pan</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.net_banking()'><b>net_banking</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.chasis()'><b>chasis</b><br>Test class: ThirdParty.TC_14<br>Parameters: ABCDEF12345678</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.email()'><b>email</b><br>Test class: ThirdParty.TC_14<br>Parameters: swapqa@simsontech.onmicrosoft.com</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.engine()'><b>engine</b><br>Test class: ThirdParty.TC_14<br>Parameters: ABCDEF12345678</td>
+<td></td>
+<td>1</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.TP()'><b>TP</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.address()'><b>address</b><br>Test class: ThirdParty.TC_14<br>Parameters: 400001</td>
+<td></td>
+<td>2</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.clickCarModule()'><b>clickCarModule</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.Accessrios_cover()'><b>Accessrios_cover</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.insured_details()'><b>insured_details</b><br>Test class: ThirdParty.TC_14<br>Parameters: Abc person</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.insureddetails_btn()'><b>insureddetails_btn</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.claim_No()'><b>claim_No</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.ckyc_yes()'><b>ckyc_yes</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>2</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.dontknowcar()'><b>dontknowcar</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>2</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.select_bank()'><b>select_bank</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.get_quote()'><b>get_quote</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.bnk_city()'><b>bnk_city</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.vehicle_num()'><b>vehicle_num</b><br>Test class: ThirdParty.TC_14<br>Parameters: MH01-AB-2558</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.existing_cust()'><b>existing_cust</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.non_elec()'><b>non_elec</b><br>Test class: ThirdParty.TC_14<br>Parameters: 10000</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.all_addons()'><b>all_addons</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.get_policyno()'><b>get_policyno</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>17</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.bnk_name()'><b>bnk_name</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.Make_payment()'><b>Make_payment</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.cng()'><b>cng</b><br>Test class: ThirdParty.TC_14<br>Parameters: 20000</td>
+<td></td>
+<td>3</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.Verify_kyc()'><b>Verify_kyc</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.reg_date()'><b>reg_date</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.previous_pol()'><b>previous_pol</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.term_con()'><b>term_con</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.make()'><b>make</b><br>Test class: ThirdParty.TC_14<br>Parameters: Hond</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.claimfor_zerodep()'><b>claimfor_zerodep</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.pol_Expirydate()'><b>pol_Expirydate</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.pa_cover()'><b>pa_cover</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>23</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.variant()'><b>variant</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+<tr>
+<td title='ThirdParty.TC_14.model()'><b>model</b><br>Test class: ThirdParty.TC_14</td>
+<td></td>
+<td>0</td>
+<td>ThirdParty.TC_14@38afe297</td></tr>
+</table><p>
+</body>
+</html>

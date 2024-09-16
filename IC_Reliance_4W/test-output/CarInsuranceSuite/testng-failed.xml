@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CarInsuranceSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="New_car.TC_01">
+        <methods>
+          <include name="quote_btn"/>
+          <include name="setup"/>
+          <include name="fullname"/>
+          <include name="clickCarModule"/>
+          <include name="net_banking"/>
+          <include name="term_con"/>
+          <include name="existing_cust"/>
+          <include name="address_btn"/>
+          <include name="rto_num"/>
+          <include name="current_address"/>
+          <include name="nominee_btn"/>
+          <include name="nomin_name"/>
+          <include name="vehicle_button"/>
+          <include name="newCar"/>
+          <include name="ckyc_number"/>
+          <include name="insureddetails_btn"/>
+          <include name="dob_calender"/>
+          <include name="nominee_marital"/>
+          <include name="Marital"/>
+          <include name="Make_payment"/>
+          <include name="address"/>
+          <include name="Make_payment_rel"/>
+          <include name="success_payment"/>
+          <include name="variant"/>
+          <include name="email"/>
+          <include name="model"/>
+          <include name="pan"/>
+          <include name="make"/>
+          <include name="select_bank"/>
+          <include name="premium"/>
+          <include name="terms"/>
+          <include name="nominee_dob"/>
+          <include name="engine"/>
+          <include name="chasis"/>
+          <include name="kyc_button"/>
+          <include name="Verify_kyc"/>
+          <include name="Rel_payment"/>
+          <include name="loan"/>
+          <include name="mobnum"/>
+          <include name="get_policyno"/>
+        </methods>
+      </class> <!-- New_car.TC_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [CarInsuranceSuite] -->

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="ThirdParty.TC_11">
+        <methods>
+          <include name="select_bank"/>
+          <include name="premium"/>
+          <include name="email_reset"/>
+          <include name="engine"/>
+          <include name="model"/>
+          <include name="nominee_dob"/>
+          <include name="email"/>
+          <include name="cng"/>
+          <include name="ncb_drpdwn"/>
+          <include name="Verify_kyc"/>
+          <include name="kyc_button"/>
+          <include name="bnk_name"/>
+          <include name="mobnum"/>
+          <include name="claim_No"/>
+          <include name="current_address"/>
+          <include name="fullname"/>
+          <include name="reg_date"/>
+          <include name="term_con"/>
+          <include name="owner_type"/>
+          <include name="previous_policy"/>
+          <include name="address_btn"/>
+          <include name="Make_payment_rel"/>
+          <include name="Marital"/>
+          <include name="chasis"/>
+          <include name="previous_pol"/>
+          <include name="nominee_marital"/>
+          <include name="get_quote"/>
+          <include name="terms"/>
+          <include name="pan"/>
+          <include name="dontknowcar"/>
+          <include name="existing_insurer"/>
+          <include name="variant"/>
+          <include name="make"/>
+          <include name="Rel_payment"/>
+          <include name="get_policyno"/>
+          <include name="clickCarModule"/>
+          <include name="ownership_no"/>
+          <include name="loan_yes"/>
+          <include name="vehicle_button"/>
+          <include name="nominee_btn"/>
+          <include name="Third_party"/>
+          <include name="exisitngTP_popup"/>
+          <include name="rto_num"/>
+          <include name="nomin_name"/>
+          <include name="existing_cust"/>
+          <include name="setup"/>
+          <include name="net_banking"/>
+          <include name="address"/>
+          <include name="Make_payment"/>
+          <include name="pa_cover"/>
+          <include name="success_payment"/>
+          <include name="pol_Expirydate"/>
+          <include name="insureddetails_btn"/>
+          <include name="bnk_city"/>
+          <include name="ckyc_number"/>
+          <include name="vehicle_num"/>
+          <include name="dob_calender"/>
+        </methods>
+      </class> <!-- ThirdParty.TC_11 -->
+      <class name="ThirdParty.TC_14">
+        <methods>
+          <include name="engine"/>
+          <include name="premium"/>
+          <include name="cng"/>
+          <include name="email"/>
+          <include name="select_bank"/>
+          <include name="model"/>
+          <include name="non_elec"/>
+          <include name="net_banking"/>
+          <include name="ncb_drpdwn"/>
+          <include name="mobnum"/>
+          <include name="bnk_name"/>
+          <include name="Verify_kyc"/>
+          <include name="all_addons"/>
+          <include name="current_address"/>
+          <include name="ckyc_yes"/>
+          <include name="reg_date"/>
+          <include name="previous_policy"/>
+          <include name="owner_type"/>
+          <include name="address_btn"/>
+          <include name="term_con"/>
+          <include name="fullname"/>
+          <include name="Make_payment_rel"/>
+          <include name="insured_details"/>
+          <include name="existing_insurer"/>
+          <include name="get_quote"/>
+          <include name="previous_pol"/>
+          <include name="discounts"/>
+          <include name="chasis"/>
+          <include name="terms"/>
+          <include name="dontknowcar"/>
+          <include name="make"/>
+          <include name="pan"/>
+          <include name="ownership_no"/>
+          <include name="variant"/>
+          <include name="claimfor_zerodep"/>
+          <include name="Rel_payment"/>
+          <include name="clickCarModule"/>
+          <include name="claim_No"/>
+          <include name="addons_drpdown"/>
+          <include name="loan_yes"/>
+          <include name="get_policyno"/>
+          <include name="vehicle_button"/>
+          <include name="elec_acc"/>
+          <include name="exisitngTP_popup"/>
+          <include name="TP"/>
+          <include name="existing_cust"/>
+          <include name="address"/>
+          <include name="addons_select"/>
+          <include name="setup"/>
+          <include name="success_payment"/>
+          <include name="Make_payment"/>
+          <include name="zrodep_btn"/>
+          <include name="dob_calender"/>
+          <include name="vehicle_num"/>
+          <include name="insureddetails_btn"/>
+          <include name="ckyc_number"/>
+          <include name="pa_cover"/>
+          <include name="rto_num"/>
+          <include name="Accessrios_cover"/>
+          <include name="bnk_city"/>
+          <include name="pol_Expirydate"/>
+        </methods>
+      </class> <!-- ThirdParty.TC_14 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
